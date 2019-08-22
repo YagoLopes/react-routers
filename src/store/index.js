@@ -9,5 +9,5 @@ const composer =
         console.tron.createEnhancer()
       )
     : applyMiddleware(...[]);
-const store = createStore(reducers, composer); //dentro da função createStore será passado os reducers
+const store = createStore(reducers, composer);
 export default store;
